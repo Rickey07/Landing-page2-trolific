@@ -1,0 +1,66 @@
+
+/* navbar styling  */
+
+.navbar-brand {
+    letter-spacing: 7px;
+}
+
+.nav-link {
+    border-bottom: 1px solid black !important;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.active {
+    border: 2px solid white !important;
+    margin-bottom: 10px;
+    background: black;
+    color: white !important;
+    border-radius: 10px;
+}
+
+
+/* Navbar completed  */
+
+.home-image-section {
+    background: url(/images/jannis-lucas-9kixbx1zdMw-unsplash.jpg) no-repeat center center/cover
+     fixed;
+     height: 85vh;
+     width: 100%;
+}
+
+.form-container {
+    position: relative;
+    height: 85vh;
+    width: 100%;
+}
+
+.form-container form {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.form-container form select {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.form-container form button {
+    width: 100% ;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: rgb(221, 85, 36);
+    border: 1px solid white;
+    outline: none;
+}
+
+
+.form-container form button:hover {
+    background: rgb(185, 51, 2);
+    color: white;
+}
+
